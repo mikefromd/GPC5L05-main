@@ -4,6 +4,7 @@ At the end of the session, you will have created an audio recording, and done yo
 
 This repo (short for repository) contains the activities for this session. If materials are referred to here, download the respective repository as a zip file, unpack it if necessary and then use its contents while working on the tasks outlined here in this README file.
 
+![Audacity with Learning Music](/media/2024-01-09_07-57-54.png)
 
 ## What will you do today?
 
@@ -55,7 +56,7 @@ This plugin runs on Apple M1/M2 and is required if you want to make recordings o
 
 ### Audacity settings for Windows 10, recording and sound editing
 
-The video below demonstrates how to set up and edit a sound recording. While it is done with an older version of the Audacity software on Windows, it also applies for macOS and newer Audacity versions, so have a look and afterwards polish your audio recording.
+The video below demonstrates how to set up, record, and edit a sound recording. While the video shows an older version of the Audacity software on Windows, it still applies for macOS and newer Audacity versions, so have a look and follow the guide to record and polish your audio recording.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/knL6uKBGyIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

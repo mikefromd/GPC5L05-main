@@ -75,12 +75,6 @@ The code snippet below adds an audio player that allows you to play the mp3 file
 
 ## Learn about MAX 8
 
-- [ ] Get started with MAX 8 - Get to know MAX 8 and create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction. You will learn to assemble a small two channel playlist and control it with buttons. ![audioplayer](/media/221108_AudioPlayer_in_MAX.png)
-- [ ] [This video](https://youtu.be/-4nZ6wnVdY8) also introduces you to MAX. Have a look and if you want to get your hands dirty, just recreate the patch shown here and then discover what happens when you change the various parameters you can tweak.
+Get started with MAX 8 - Get to know MAX 8 and create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction. You will learn to assemble a small two channel playlist and control it with buttons.![audioplayer](/media/221108_AudioPlayer_in_MAX.png)
 
-
-##### What to do? Create Your First Patch With MAX 8
-
-If you want to create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction.
-
-
+If you want to learn more, have a look at this [video](https://youtu.be/-4nZ6wnVdY8) that also introduces you to MAX. Learn by patching and just recreate the patch introduced and then discover what happens when you remix the patch to tweak it doing other things.

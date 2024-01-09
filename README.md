@@ -1,28 +1,68 @@
-*Work in progress - The original session will be reorganised for future activities, here will remain only an introduction to MAX and some audio knowledge.*
+# Analog Recording and Introduction to MAX 8
 
-# Course Material for MAX 8
+At the end of the session, you will have created an audio recording, and done your first patch with MAX 8.
 
-At the end of the session you will have created your first patch with MAX 8, recorded a sequencer session and published it on your website.
-
-This repo (short for repository) contains the activities for today's session. If materials are referred to here, download the respective repository as a zip file and then use its contents while working on the tasks outlined here in this readme file.
-
-#### What will you do today?
-
-- [ ] Play a MAX patch and record it.
-- [ ] Install Audacity and Max 8 with Netsoft on the PC.
-- [ ] Launch MAX 8 with the sequencer patch and use Audacity to record a session (see video below for how to use Audacity).
-- [ ] Export the recorded file to .mp3 with Audacity.
-- [ ] Upload your audio .mp3 file to the repository of your website and publish the file. See [here](https://www.w3schools.com/html/html5_audio.asp) for the HTML code and modify it accordingly
-
-#### Audio Recording with Audacity
-*tbd*
+This repo (short for repository) contains the activities for this session. If materials are referred to here, download the respective repository as a zip file, unpack it if necessary and then use its contents while working on the tasks outlined here in this README file.
 
 
-##### Audacity settings for Windows 10 to record system sounds
+## What will you do today?
 
-This [blog post](https://mibrs.github.io/audio/web-design/2021/12/14/EMusic-Recording.html) shows the settings for Audacity, please choose them as shown in the red ellipses.
+- [ ] Install Audacity and MAX 8
+- [ ] Record your first composition made with Learning Music by Ableton and record it with Audacity
+- [ ] Do some basic editing of your recording and export the recorded file as .mp3.
+- [ ] Create your first MAX patch (program) and make use of your audio recording.
 
-The code snippet below adds an audio player that allows you to play the mp3 file "220516Rec1.mp3" that has been saved in the folder "assets" inside your repository.
+
+### Installing Audacity and MAX 8
+
+## macOS (Apple M1 or newer)
+
+On an Apple computer you need to install a special audio plugin in addition to Audacity and MAX 8. Here are the instructions:
+
+### Install BlackHole Plugin and Configuration
+
+This plugin runs on Apple M1/M2 and is required if you want to make recordings of sound coming from “within” your computer (sound from a website) Go to [BlackHole](https://github.com/ExistentialAudio/BlackHole)
+
+1. Download and install the BlueHole Application for 2ch
+2. Follow the instructions in [Setup Multi-Output-Device](https://github.com/ExistentialAudio/BlackHole/wiki/Multi-Output-Device)
+
+
+## Audacity (For Windows and macOS)
+
+- Install and launch Audacity(https://www.audacityteam.org)
+- **For macOS:** Select BlackHole 2ch in Audio Setup / Recording Device
+- **For Windows:** Select Windows WASAPI in Audio Setup / Recording Device
+
+
+## Install MAX 8
+
+### School PC: 
+1. Find MAX on the netsoft repository and install it (takes time, big application)
+2. You are ready to go.
+
+### BYOD: 
+1. go to [cycling74](https://cycling74.com/downloads) and download MAX 8 for your operating system.
+2. Then install MAX 8.
+3. In order to use MAX beyond the 30 days trial version, you need to install a software keyfile on your computer. Ask the teacher for help set it up on your computer.
+
+
+## Play some music and record it with Audacity
+1. Find [Learningmusic by Ableton](https://learningmusic.ableton.com/index.html)
+2. Get to know the the Music Device on the homepage and create some songs
+3. Record your song with Audacity
+4. Export the audio file as mp3
+
+
+### Audacity settings for Windows 10, recording and sound editing
+
+The video below demonstrates how to set up and edit a sound recording. While it is done with an older version of the Audacity software on Windows, it also applies for macOS and newer Audacity versions, so have a look and afterwards polish your audio recording.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/knL6uKBGyIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+#### Only for those that have a GitHub Pages site
+
+The code snippet below adds an audio player that allows you to play the mp3 file "220516Rec1.mp3" that has been saved in the folder "assets" inside your repository to show on your website. The Name of the Audio file and the path to where it is saved in your repository may vary if you have a different setup.
 
 ``` language=html
 <div>
@@ -32,31 +72,15 @@ The code snippet below adds an audio player that allows you to play the mp3 file
 </div>
 ```
 
-##### A Fun Music Source to Create Some Audio Content
 
-[Ableton Learning Music](https://learningmusic.ableton.com) is another fun way to make music. Use Audacity as described above to record your own production.
-
-
-tbd 
-
-#### Learn about MAX 8
+## Learn about MAX 8
 
 - [ ] Get started with MAX 8 - Get to know MAX 8 and create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction. You will learn to assemble a small two channel playlist and control it with buttons. ![audioplayer](/media/221108_AudioPlayer_in_MAX.png)
-- [ ] Get the sequencer patch from the repository for Oct. 25th, play with it and record your own music with Audacity. If you cannot remember how, check the Readme.md from GPC5L03.
 - [ ] [This video](https://youtu.be/-4nZ6wnVdY8) also introduces you to MAX. Have a look and if you want to get your hands dirty, just recreate the patch shown here and then discover what happens when you change the various parameters you can tweak.
-- [ ] ![Final Patch with basic MIDI and the core objects you need in MAX](/media/221108_GetToKnowAudioWithMIDI.png)
-- [ ] If you want to try out some video manipulation, check out this video about [Vizzie](https://youtu.be/59sFC22NVRA), a set of objects that allow you to manipulate video.
-- [ ] There will be more patches uploaded in the repository here. Download and unzip them. Next, launch them with MAX, try to understand what the patch does and then remix to your liking.
+
 
 ##### What to do? Create Your First Patch With MAX 8
 
 If you want to create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction.
 
-
-
-## Something More to Try Out
-
-### This video explains how to make recordings of in-app or browser content on a Windows 10 machine.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/knL6uKBGyIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -30,9 +30,21 @@ This plugin runs on Apple M1/M2 and is required if you want to make recordings o
 
 ## Audacity (For Windows and macOS)
 
-- Install and launch Audacity(https://www.audacityteam.org)
-- **For macOS:** Select BlackHole 2ch in Audio Setup / Recording Device
-- **For Windows:** Select Windows WASAPI in Audio Setup / Recording Device
+Install and launch Audacity(https://www.audacityteam.org). Click on Audio Setup and then proceed as described below for macOS or Windows.
+
+![Choose Setup](media\240110_Win11_1_Setup_Audacity.png)
+
+
+### macOS
+
+Select `BlackHole 2ch` in Audio Setup / Recording Device.
+
+
+### Windows
+
+Select Windows WASAPI in Audio Setup / Recording Device as described in the screenshot
+
+![Select WASAPI and loopback](media\240110_Win11_2_Setup_Audacity.png)
 
 
 ## Install MAX 8

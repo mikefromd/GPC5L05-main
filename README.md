@@ -86,10 +86,35 @@ The code snippet below adds an audio player that allows you to play the mp3 file
 ```
 
 
-## Learn about MAX 8
+## Get to Know MAX 8 - The Very Basics and Your First Patch
 
 Get started with MAX 8 - Get to know MAX 8 and create your first patch with MAX (programs are called patches), [here](https://youtu.be/XQIWh4AnluI) is a Youtube video that gives you a first introduction. You will learn to assemble a small two channel playlist and control it with buttons.
 
 ![My first MAX Patch](/media/2024-01-09_08-59-21.png)
 
 If you want to learn more, have a look at this [video](https://youtu.be/-4nZ6wnVdY8) that also introduces you to MAX. Learn by patching and just recreate the patch introduced and then discover what happens when you remix the patch to tweak it doing other things.
+
+
+## An Introductory Course to MAX
+
+In the next sessions we will follow along a 20 lesson introduction to MAX that cover the basic objects of MAX.
+
+**MAX** here can have two meanings:
+- It is the name of the overall application comprising all control, audio, and video functionalities. MAX is now in version 8. So if I talk about the application, I will use **MAX 8**.
+- MAX is also the name of the control objects and how they can be patched (linked) to do things.
+
+
+### We will introduce three types of objects within MAX 8:
+
+1. MAX objects control a patch (patch := a MAX 8 program). You can also use MAX only to make music and sounds with MIDI. MAX objects are the default objects.
+2. MSP objects create sound and music by generating, manipulating and mixing electronic sounds. A syntheziser is an example for an instrument that make use of this technique. You can recognize MSP objects by the `...~` (tilde) symbol at the end of their name.
+3. Jitter objects create and manipulate video content. You recognize them as their names start with `jit. ...`.
+
+Each of these types of objects comes along with dedicated types of patch cords. They do not mix, so a MAX patchcord cannot carry  Jitter video data and in most cases you need special "translater" objects to link objects of different types.
+
+
+### Let's Start
+
+Here is a link to the lessons.
+
+[20 Objects](http://www.darwingrosse.com/20Objects/index.html)

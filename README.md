@@ -97,18 +97,22 @@ If you want to learn more, have a look at this [video](https://youtu.be/-4nZ6wnV
 
 ## An Introductory Course to MAX
 
-In the next sessions we will follow along a 20 lesson introduction to MAX that cover the basic objects of MAX.
+In the next sessions we will follow along a 20 lesson introduction to MAX that covers the basic objects of MAX.
 
-**MAX** here can have two meanings:
+**MAX** here can have two different meanings:
 - It is the name of the overall application comprising all control, audio, and video functionalities. MAX is now in version 8. So if I talk about the application, I will use **MAX 8**.
 - MAX is also the name of the control objects and how they can be patched (linked) to do things.
 
 
-### We will introduce three types of objects within MAX 8:
+### A Quick Overview of MAX 8:
 
-1. MAX objects control a patch (patch := a MAX 8 program). You can also use MAX only to make music and sounds with MIDI. MAX objects are the default objects.
-2. MSP objects create sound and music by generating, manipulating and mixing electronic sounds. A syntheziser is an example for an instrument that make use of this technique. You can recognize MSP objects by the `...~` (tilde) symbol at the end of their name.
-3. Jitter objects create and manipulate video content. You recognize them as their names start with `jit. ...`.
+ **Objects** provide all the functionality in MAX, they "do things". They are represented by boxes, some of them ready-made, some of them need to be defined by typing their name inside an object box. You make things happening by **patching** these objects using **patch cords**. You do so by connecting an **outlet** with a mathching **inlet**. When hovering over the dots representing the inlets and outlets at the top and bottom of an object you see a pop-up text explaining what the inputs and outputs are for.
+
+#### We will use three families or types of objects within MAX 8:
+
+1. **MAX objects** make up and control a patch (**patch** := a MAX 8 program). You can also use *MAX only* to make music and sounds with MIDI. MAX objects are the default objects.
+2. **MSP objects** help to make sound and music by generating, manipulating and mixing audio signals. A syntheziser is an example for an instrument that make use of this techniques. You can recognize MSP objects by the `...~` (tilde) symbol at the end of their name.
+3. **Jitter objects** create and manipulate video content. You recognize them as their names start with `jit. ...`.
 
 Each of these types of objects comes along with dedicated types of patch cords. They do not mix, so a MAX patchcord cannot carry  Jitter video data and in most cases you need special "translater" objects to link objects of different types.
 

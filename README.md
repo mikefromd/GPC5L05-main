@@ -118,3 +118,5 @@ Each of these types of objects comes along with dedicated types of patch cords. 
 Here is a link to the lessons.
 
 [20 Objects](http://www.darwingrosse.com/20Objects/index.html)
+
+These [tutorials](https://docs.cycling74.com/max8/tutorials/00_maxindex) have further examples that you can work through and remix

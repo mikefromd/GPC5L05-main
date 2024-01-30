@@ -13,7 +13,7 @@ You are encouraged to remix those patches and add your own spin of things by
 
 ## How to get those patches to your computer?
 
-Open the folder `Patches`, then open the patch you want to download. You will see the code of the MAX patch. It is a text file, but do not edit it!
+Open the folder `Patches`, then open the patch by clicking on its name at the left of the panel, the file content will be displayed. A patch is a text file, but do not edit it!
 
 Next, click on the Download icon at the top of the source panel (right hand of the RAW label) and the file will be saved on your computer. There you can launch it with MAX.
 

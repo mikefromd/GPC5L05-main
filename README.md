@@ -119,8 +119,13 @@ Each of these types of objects comes along with dedicated types of patch cords. 
 
 ### Let's Start
 
-Here is a link to the lessons.
+These links are for the supportive materials we are using.
 
-[20 Objects](http://www.darwingrosse.com/20Objects/index.html)
+#### [20 Objects](http://www.darwingrosse.com/20Objects/index.html)
 
-These [tutorials](https://docs.cycling74.com/max8/tutorials/00_maxindex) have further examples that you can work through and remix
+These 20 lessons cover the basics of MAX (Lesson 1-11), MSP (Lesson 12-14), and Jitter (Lesson 15-20).
+
+
+#### [Computer Music Programming](https://dobrian.github.io/cmp/week-by-week.html)
+
+The course [Computer Music Programming](https://dobrian.github.io/cmp/week-by-week.html) covers MAX from a different angle, it also contains non-MAX/MSP materials. But it has easy to understand sections describing the basics of digital sound that is helpful if you want to dive deeper into the subject.

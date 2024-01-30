@@ -17,5 +17,7 @@ Open the folder `Patches`, then open the patch by clicking on its name at the le
 
 Next, click on the Download icon at the top of the source panel (right hand of the RAW label) and the file will be saved on your computer. There you can launch it with MAX.
 
+Some patches also need supportive files (subpatches, images, sound and video files). These projects are saved in a folder. In this case, you need to download the folder and its content.
+
 
 Have fun!

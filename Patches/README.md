@@ -17,7 +17,10 @@ Open the folder `Patches`, then open the patch by clicking on its name at the le
 
 Next, click on the Download icon at the top of the source panel (right hand of the RAW label) and the file will be saved on your computer. There you can launch it with MAX.
 
-Some patches also need supportive files (subpatches, images, sound and video files). These projects are saved in a folder. In this case, you need to download the folder and its content.
+Some patches also need supportive files (subpatches, images, sound and video files). These projects are saved in a folder. In this case, you have two options:
+
+1. You open the project folder and download file by file individually. Ideally, you create a new folder on your machine and copy all files there.
+2. You go back to the repository `MAX-Materials`, click at the top on the green button `<> Code` and choose `Download .zip`.. Then you will get the whole repository, including the content of the folder *Patches*. You may need to extract the contents of the repository.
 
 
 Have fun!
